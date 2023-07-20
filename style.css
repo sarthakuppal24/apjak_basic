@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    border: 10px solid black ;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.header-main{
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.header-img img{
+    height: 320px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.header-content{
+    align-self: flex-end;
+}
+
+.header-content h3{
+    display: flex;
+    justify-content: end;
+}
+
+.intro h2{
+    padding-bottom: 30px;
+}
+
+.intro p{
+    line-height: 25pt;
+    padding-bottom: 40px;
+}
+
+
+.bib-list{
+    padding-top: 20px;
+    padding-left: 60px;
+    line-height: 25pt;
+}
+
+footer{
+    padding-block: 40px;
+    display: flex;
+    justify-content: end;
+}
